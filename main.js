@@ -30,13 +30,13 @@ function my_keydown(e)
 		if((keyPressed >=97 && keyPressed<=122)|| (keyPressed >=65 && keyPressed<=90))
 		document.getElementById("d1").innerHTML = "You Pressed Alphabet Key";
 		console.log("alphabet key")
-		else if (keyPressed 48-57)
+		else if (keyPressed (keyPressed >=48 && keyPressed<=57))
         document.getElementById("d1").innerHTML = "You Pressed Number Key";
 		console.log("number key")
-		else if (keyPressed 37-40)
+		else if (keyPressed(keyPressed >=37 && keyPressed<=40) )
         document.getElementById("d1").innerHTML = "You Pressed Arrow Key";
 		console.log("arrow key")
-		else if (keyPressed 17||18||27)
+		else if (keyPressed==17||keyPressed==18||keyPressed==27)
         document.getElementById("d1").innerHTML = "You Pressed Special Key";
 		console.log("special key")
 		else {
